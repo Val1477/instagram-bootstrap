@@ -1,0 +1,44 @@
+
+body{
+    background-color: red;
+}
+
+.two-buttons-container {
+    display:-webkit-box;
+}
+
+.gallery-image{
+    max-height: 200px;
+}
+
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.date{
+    float: right;
+}
+
+.card{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.fa-heart{
+   margin-right: 5px; 
+}
+
+.row {
+    background-color: #e0e1e2; 
+}
+
